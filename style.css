@@ -23,3 +23,7 @@
     --var-SecondaryTurquoise: #78CDD1;
     --var-SecondaryBlue: #84C2Ea;
 }
+
+body {
+    background-color: black;
+}
