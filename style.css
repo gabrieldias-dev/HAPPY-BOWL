@@ -1,0 +1,25 @@
+@import url('https://fonts.googleapis.com/css2?family=Bayon&family=Poppins&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Bayon&family=Poppins&display=swap');
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    font-size: 62.5%;
+
+    --var-fontPrimary: 'Bayon', sans-serif;
+    --var-fontSecondary: 'Poppins', sans-serif;
+
+    --var-PrimaryBlack: #232323;
+    --var-PrimaryWhite: #F7EFE6;
+    --var-PrimaryPink: #F05B72;
+    --var-SecondaryYellow: #FFD400;
+    --var-SecondaryOrange: #F68D61;
+    --var-SecondaryTurquoise: #78CDD1;
+    --var-SecondaryBlue: #84C2Ea;
+}
