@@ -25,5 +25,97 @@
 }
 
 body {
-    background-color: black;
+    font-family: var(--var-fontSecondary);
+    background-color: var(--var-SecondaryOrange);
+}
+
+.alinhamentoGeral {
+    width: min(140rem, 100%);
+}
+
+header {
+    width: 100%;
+    position: absolute;
+}
+
+nav {
+    padding: 2.5rem 0;
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+}
+
+.logo a img {
+    width: 20rem;
+}
+
+.menu {
+    display: flex;
+    align-items: center;
+    gap: 5rem;
+}
+
+.menu li {
+    font-size: 1.5rem;
+    list-style: none;
+    text-decoration: none;
+    transition: border 1s;
+    
+}
+
+.menu li a {
+    text-decoration: none;
+    color: var(--var-PrimaryWhite);
+    font-family: var(--var-fontSecondary);
+    text-transform: uppercase;
+    font-weight: 600;
+    
+}
+
+.menu :nth-child(5) {
+    padding: .5rem 2rem;
+    border: 2px solid var(--var-PrimaryWhite);
+    border-radius: 5rem
+}
+
+section {
+    display: flex;
+    justify-content: center;
+    padding: 0 2rem;
+}
+
+.home {
+    width: 100vw;
+    height: 100vh;
+    background-image: url(assets/bg-inicio.png);
+    background-size: cover;
+}
+
+.home > .alinhamentoGeral {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+h1 {
+    font-family: var(--var-fontSecondary);
+    font-size: 12rem;
+    color: white;
+}
+
+.container-home {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.container-home > p {
+    color: var(--var-PrimaryWhite);
+    font-size: 2.5rem;
 }
