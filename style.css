@@ -40,11 +40,10 @@ header {
 }
 
 nav {
-    padding: 5rem 0 0 0;
+    height: 12rem;
+    padding: 4rem 10rem;
     display: flex;
-    justify-content: space-around;
-    gap: 25rem;
-    
+    justify-content: space-between;
 }
 
 .logo {
