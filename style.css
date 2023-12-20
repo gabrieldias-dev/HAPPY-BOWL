@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Bayon&family=Poppins:wght@400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bayon&family=Poppins:wght@300;400;500;600;700&display=swap');
 
 * {
     margin: 0;
@@ -26,6 +26,7 @@
 body {
     font-family: var(--var-fontSecondary);
     background-color: var(--var-SecondaryOrange);
+    overflow: overlay;
 }
 
 .alinhamentoGeral {
@@ -182,11 +183,13 @@ h2 {
 .menu-amostra {
     display: flex;
     justify-content: space-between;
+    flex-wrap: wrap;
+    margin-top: 3rem;
 }
 
 .card-menu {
+    position: relative;
     width: 32%;
-    border: 1px solid black;
     height: 55rem;
 }
 
@@ -197,6 +200,59 @@ h2 {
 }
 
 .card-menu img {
+    width: 100%;  
+}
+
+.card-menu h3 {
+    margin: 1rem 0;
+    font-size: 2rem;
+}
+
+.card-menu p {
+    font-size: 1.5rem;
+}
+
+.card-menu button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    bottom: 0;
+
+    font-family: var(--var-fontSecondary);
+    color: white;
+    font-size: 2.5rem;
+    font-weight: 300;
+    border: none;
+    width: 2.5rem;
+    height: 2.5rem;
+    background-color: var(--var-PrimaryPink);
+    border-radius: 50%;
+}
+
+.view-menu {
+    display: flex;
+    justify-content: center;
     width: 100%;
-    
+    margin: 5rem 0;
+}
+
+.view-menu a {
+    display: flex;
+    align-items: center;
+    font-size: 1.5rem;
+    color: var(--var-PrimaryPink);
+    font-weight: 600;
+
+    transition: all .3s;
+}
+
+.view-menu a img {
+   margin-left: 1rem;
+    width: 3rem;
+}
+
+.view-menu a:hover {
+    transform: scale(1.04);
+    cursor: pointer;
 }
