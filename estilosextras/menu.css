@@ -90,9 +90,49 @@ nav {
 
 /* ----------------- MENU --------------------- */
 
+.title {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+
 h2 {
-    font-size: 3.5rem;
-    margin-bottom: 1rem;
+    font-size: 5rem;
+    margin-bottom: .5rem;
+}
+
+.title > p {
+    color: white;
+    font-size: 1.5rem;
+    padding: 0.5rem 1.5rem;
+    border-radius: 5rem;
+    background-color: var(--var-PrimaryPink);
+}
+
+.title-separador {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 1rem 0 5rem 0;
+}
+
+.title-separador p {
+    color: white;
+    font-size: 1.5rem;
+    padding: 0.5rem 5rem;
+    border-radius: 5rem;
+    background-color: var(--var-PrimaryBlack);
+}
+
+.title-separador :nth-child(2){
+    background-color: transparent;
+    color: rgb(77, 77, 77);
+    font-size: 1.2rem;
+    
 }
 
 .menu > .alinhamentoGeral p:nth-child(2){
@@ -113,7 +153,8 @@ h2 {
 .card-item {
     position: relative;
     width: 30%;
-    height: 55rem;
+    height: 45rem;
+    margin-bottom: 5rem;
 }
 
 .box-img {
