@@ -178,8 +178,7 @@ input[type="email"] {
     
 }
 
-input[type="checkbox"]:checked {
-    
+input[type="checkbox"]:checked { 
     accent-color: var(--var-PrimaryPink);
 }
 
@@ -190,8 +189,7 @@ input[type="checkbox"]:checked {
     border: none;
     background-color: var(--var-PrimaryPink);
     color: white;
-    cursor: pointer
-    ;
+    cursor: pointer;
     transition: transform .3s;
 }
 
