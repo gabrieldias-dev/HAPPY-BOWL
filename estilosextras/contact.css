@@ -37,7 +37,7 @@ section {
 
 header {
    width: 100%;
-   background-color: var(--var-bgPrimary);
+   background-color: var(--var-Primary);
    display: flex;
    justify-content: center;
    
@@ -92,20 +92,42 @@ nav {
 .contact {
     width: 100%;
     height: 100vh;
-}
-.contact > .alinhamentoGeral {
-    display: flex;
-    justify-content: space-around;
+    background-color: var(--var-bgPrimary);
 }
 
+
 .contactLeft, .pictureRight {
-    width: 49%;
-    
-    border: 1px solid black;
+    width: 50%;
 }
 
 .pictureRight {
     background-image: url(../assets/img-contact-01.png);
+    background-size: cover;
+}
+
+.contactLeft {
+    padding: 5rem 10rem;
+}
+
+.contactLeft img {
+    width: 3rem;
+    margin-right: 1rem;
+}
+
+h1 {
+    font-size: 5rem;
+}
+
+.contactLeft p {
+    display: flex;
+    align-items: center;
+    font-size: 1.5rem;
+    margin-bottom: .5rem;
+    
+}
+
+.map {
+    margin-top: 1rem;
 }
 
 /* ------- e-mail ---------- */
