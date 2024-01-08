@@ -161,6 +161,10 @@ h1 {
     
 }
 
+.videohome-celular {
+    display: none;
+}
+
 .videohome {
    position: absolute;
     right: 0;
@@ -417,3 +421,58 @@ footer > .alinhamentoGeral {
 }
 
 
+@media (max-width: 1024px) {
+
+    .alinhamentoGeral {
+        width: min(35rem, 100%);
+        border: 1px solid rgb(17, 16, 16);
+    }
+
+    .videohome {
+        display: none;
+    }
+
+    .videohome-celular {
+        display: block;
+        position: absolute;  
+    }
+
+    .container-home {
+        padding: 0 1rem;
+    }
+
+    .container-home h1 {
+        font-size: 5rem;
+    }
+
+    .container-home p {
+        font-size: 1.8rem;
+    }
+
+    /* ----- menu - celular */
+
+    .menu > .alinhamentoGeral {
+    padding: 0 2rem;
+}
+
+    .menu-amostra {
+        padding: 0;
+
+    }
+
+    .card-menu {
+    position: relative;
+    width: 100%;
+    height: 50rem;
+    margin-bottom: 5rem;
+}
+
+.card-menu button {
+    bottom: 1rem;
+    left: 1rem;
+}
+
+.view-menu {
+    margin-top: 1rem;
+}
+}
