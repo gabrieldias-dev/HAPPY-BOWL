@@ -78,7 +78,7 @@ nav {
     color: var(--var-PrimaryBlack);
     font-family: var(--var-fontSecondary);
     text-transform: uppercase;
-    font-weight: 600;
+    font-weight: 500;
     
 }
 
@@ -127,12 +127,11 @@ nav {
     display: flex;
     flex-direction: column;
     align-items: center;
-
 }
-
 
 h2 {
     font-size: 5rem;
+    margin-top: 5rem;
     margin-bottom: .5rem;
 }
 
@@ -227,8 +226,6 @@ h2 {
 }
 
 
-
-
 /* ------- galeria --------- */
 
 .galeria {
@@ -252,7 +249,7 @@ h2 {
 }
 
 .container-info {
-    padding: 1rem 5rem;
+    padding: 1rem 3rem;
     width: 50%;
     margin: 5rem 0;
     text-align: justify;

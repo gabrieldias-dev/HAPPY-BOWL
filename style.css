@@ -73,7 +73,7 @@ nav {
     color: var(--var-PrimaryWhite);
     font-family: var(--var-fontSecondary);
     text-transform: uppercase;
-    font-weight: 600;
+    font-weight: 500;
 }
 
 .navigation :nth-child(5) {
@@ -275,6 +275,7 @@ h2 {
 }
 
 .view-menu a {
+    text-decoration: none;
     display: flex;
     align-items: center;
     font-size: 1.5rem;
@@ -336,7 +337,7 @@ h2 {
     font-size: 1.6rem;
 }
 
-.container-info p:nth-child(3) {
+.container-info p:nth-child(1) {
     font-size: 1.4rem;
 }
 

@@ -67,7 +67,7 @@ nav {
     color: var(--var-PrimaryBlack);
     font-family: var(--var-fontSecondary);
     text-transform: uppercase;
-    font-weight: 600;
+    font-weight: 500;
 }
 
 .navigation :nth-child(5) {
