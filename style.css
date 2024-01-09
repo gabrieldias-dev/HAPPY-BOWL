@@ -33,6 +33,19 @@ body {
     width: min(140rem, 100%);
 }
 
+::-webkit-scrollbar {
+    display: none;
+    width: 1rem;
+}
+
+::-webkit-scrollbar-track {
+    background-color: var(--var-PrimaryWhite);
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: var(--var-PrimaryPink);
+}
+
 header {
     width: 100%;
     position: absolute;
@@ -422,6 +435,11 @@ footer > .alinhamentoGeral {
 
 
 @media (max-width: 1024px) {
+
+    ::-webkit-scrollbar {
+        display: none;
+
+    }
 
     .alinhamentoGeral {
         width: min(35rem, 100%);
