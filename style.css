@@ -93,6 +93,7 @@ nav {
   padding: 0.5rem 2rem;
   border: 2px solid var(--var-PrimaryWhite);
   border-radius: 5rem;
+  transition: all .5s;
 }
 
 .navigation li a.ativo::before {
@@ -117,11 +118,13 @@ nav {
   display: none;
 }
 
-.navigation :nth-child(5):hover .order,
 .navigation :nth-child(5):hover {
   background-color: var(--var-PrimaryWhite);
-  color: black;
   cursor: pointer;
+}
+
+.navigation :nth-child(5):hover .order {
+    color: black;
 }
 
 /* ------- home ------------ */
