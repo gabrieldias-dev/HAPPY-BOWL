@@ -1,4 +1,9 @@
 
+function abrirMenu() {
+  let mostrarMenu = document.querySelector(".menuAberto");
+  mostrarMenu.style.top = "0"
+}
+
 function validarForm() {
   let emailInput = document.querySelector("#emailClient");
   let checkboxInput = document.querySelector("#accept");
@@ -11,3 +16,4 @@ function validarForm() {
     );
   }
 }
+
