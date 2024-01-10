@@ -42,13 +42,11 @@ section {
 header {
   width: 100%;
   background-color: var(--var-bgPrimary);
-  display: flex;
-  justify-content: center;
 }
 
 nav {
   height: 12rem;
-  padding: 4rem 0rem;
+  padding: 4rem 10rem;
   display: flex;
   justify-content: space-between;
 }
